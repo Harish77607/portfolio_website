@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.svg" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <!-- <li>
+                  <a href="#testimonials">Testimonials</a>
+                </li> -->
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#hireme" class="active">Hire me</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Harish B</h1>
+              <p class="text">
+                Im a UI/UX Designer and Developer, where I make stories come
+                alive through my designs using my skills and creativity.
+              </p>
+              <a href="#" class="btn">Download Resume</a>
+            </div>
+
+            <div class="column-2 image">
+              <!-- <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/person.png" class="img-element z-index" alt="" /> -->
+              <div class="img-circle">
+                <div class="img-logo">
+                  <div class="img-text">
+                    <p>Harish - UI/UX Designer and Developer -</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="">Services</h3>
+            <p class="text">Below are the areas where I can offer my service</p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img
+                    src="./img/icons8-web-design-64 (1).png"
+                    class="icon"
+                    alt=""
+                  />
+                  <h3 class="title-sm">Web Design</h3>
+                  <p class="text">
+                    I have good Experience in web design and comfortable in
+                    using design softwares like Figma, Adobe Illustrator, Adobe
+                    XD.
+                  </p>
+                  <!-- <a href="#" class="btn small">Read more</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img
+                    src="./img/icons8-web-development-64 (1).png"
+                    class="icon"
+                    alt=""
+                  />
+                  <h3 class="title-sm">Web Development</h3>
+                  <p class="text">
+                    I am a enthusiastic and passionate full stack developer
+                    where my stack is MERN stack development.
+                  </p>
+                  <!-- <a href="#" class="btn small">Read more</a> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">App Development</h3>
+                  <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum hic veniam nihil.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <!-- <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.png" class="shape square" alt="" />
+            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          </div> -->
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+              <button class="filter-btn" data-filter=".concept">
+                Concepts
+              </button>
+              <button class="filter-btn" data-filter=".web-design">
+                Web Design
+              </button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item concept">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Landing Concept</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Development</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI / UX Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item concept">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Landing Concept</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item concept">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Landing Concept</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item concept">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Landing Concept</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>UI/UX</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui web-design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Web Design</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="more-folio">
+              <a href="#" class="btn">More Folio</a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1 image">
+              <!-- <img src="./img/shapes/points4.png" class="points" alt="" /> -->
+              <img src="./img/person1.jpg" alt="" />
+            </div>
+            <div class="column-2">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+                A self-tought UI/UX Designer and WEB Developer, where I make
+                stories come alive through my designs using my skills and
+                creativity. I am 21 years old and I am open to work for any
+                organization where I can further improve my knowledge and skills
+                in a passionate environment.
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+                <div class="skill react">
+                  <h3 class="skill-title">React</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="75%"></div>
+                  </div>
+                </div>
+                <div class="skill express">
+                  <h3 class="skill-title">Express and NodeJs</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill mongo">
+                  <h3 class="skill-title">MongoDB</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill figma">
+                  <h3 class="skill-title">Figma & Adobe XD</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- <a href="#" class="btn">Read more</a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Interested to collab</h3>
+              <p class="text">
+                Make your stories come alive! I am open for work opportunities
+                and eagerly waiting for an opportunity to work and to showcase
+                my skills and creativity.
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Whitefield, Bangalore</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">harishbunicorn@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">7760733992</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Send</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Interested for collaboration</h3>
+          <p class="text">
+            I am a very passionate learner and a good team player. Its mostly
+            because I am a basketball player. ha ha... If u need a young and
+            passionate creative developer for your team then do contact me. My
+            contact details are in above section.
+          </p>
+          <!-- <a href="#" class="btn">Hire me</a> -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">My Goal</h3>
+            <p class="text">
+              To always acquire knowledge and network with like minded people to
+              solve challenging problems.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Services</h3>
+            <ul>
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Web Development</a>
+              </li>
+              <li>
+                <a href="#">UI/UX Design</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Contact</h3>
+            <p class="text">Enter your Email Address</p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2021 All rights reserved |
+              <span>Harish B</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-dribbble"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-behance"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
