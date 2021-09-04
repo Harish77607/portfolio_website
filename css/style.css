@@ -944,30 +944,9 @@ nav.open .links {
   color: var(--main-color);
 }
 
-.back-btn-wrap {
-  position: relative;
-  margin-left: 2.5rem;
-}
 
-.back-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 55px;
-  width: 55px;
-  background-color: var(--main-color);
-  border-radius: 50%;
-  color: #fff;
-  font-size: 1.2rem;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.15);
-  transition: 0.3s;
-  position: relative;
-  z-index: 2;
-}
 
-.back-btn:hover {
-  background-color: #545457;
-}
+
 
 .back-btn-wrap:before {
   content: "";
@@ -1448,7 +1427,7 @@ nav.open .links {
   }
 
   header .column-1 {
-    max-width: 320px;
+    max-width: 280px;
     margin: 0 auto;
   }
 
@@ -1484,50 +1463,6 @@ nav.open .links {
     min-height: 80vh;
   }
 
-  .letters,
-  header .half-circle2,
-  header .points1,
-  header .wave2 {
-    display: none;
-  }
-
-  header .half-circle1 {
-    bottom: 55%;
-    left: 23%;
-  }
-
-  header .circle {
-    left: 8%;
-    bottom: 40%;
-  }
-
-  header .wave1 {
-    bottom: 87%;
-    left: 75%;
-  }
-
-  header .square {
-    top: initial;
-    bottom: 5%;
-    left: 13%;
-  }
-
-  header .triangle {
-    right: 14%;
-    bottom: 63%;
-  }
-
-  header .points2 {
-    width: 280px;
-    bottom: -10px;
-    left: 60%;
-  }
-
-  header .xshape {
-    left: 90%;
-    top: 54%;
-  }
-
   .grid-item {
     width: 50%;
   }
@@ -1541,29 +1476,6 @@ nav.open .links {
     height: 340px;
   }
 
-  .portfolio .half-circle1,
-  .portfolio .triangle,
-  .portfolio .half-circle2 {
-    display: none;
-  }
-
-  .portfolio .square {
-    top: 10%;
-    left: 14%;
-  }
-
-  .portfolio .wave {
-    top: 33%;
-  }
-
-  .portfolio .circle {
-    right: 20%;
-  }
-
-  .portfolio .xshape {
-    top: 25%;
-  }
-
   .skill-bar {
     width: 100%;
   }
@@ -1575,33 +1487,6 @@ nav.open .links {
   .about .points {
     top: 60%;
     left: 59%;
-  }
-
-  .records .wave1,
-  .records .triangle {
-    display: none;
-  }
-
-  .records .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .records .wave2 {
-    left: 48%;
-  }
-
-  .records .sqaure2 {
-    bottom: 45%;
-    right: 50px;
-  }
-
-  .testi-content {
-    margin-top: 1.7rem;
-  }
-
-  .testi-content .image {
-    max-width: 500px;
-    margin: 0 auto;
   }
 
   .review-nav {
